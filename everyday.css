@@ -8,7 +8,7 @@ body{
 }
 
 #myInput{
-  height: 30px;
+  height: 24px;
   width: 300px;
   text-align: center;
 }
@@ -16,6 +16,12 @@ body{
 #addBtn{
   height: 30px;
   width: 300px;
+  background-color: #bbb;
+}
+#clear{
+  height: 30px;
+  width: 300px;
+  background-color: #bbb;
 }
 
 #inputs{
@@ -25,17 +31,14 @@ body{
 }
 
 #display{
-  font-size: 20px;
-color:White;
+  font-size: 15px;
 margin:2 auto;
 width: 300px;
 }
 
 li{
-  font-size: 30px;
+  font-size: 20px;
   margin:2 auto;
-  background-color:Grey;
   width:300px;
   height: 50px;
-
 }
