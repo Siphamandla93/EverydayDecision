@@ -1,11 +1,11 @@
-var adding = document.getElementById('addBtn');
-var thisname = document.getElementById('myInput');
-var displaying = document.getElementById('display');
-var clearbtn = document.getElementById('clear');
+let adding = document.getElementById('addBtn');
+let thisname = document.getElementById('myInput');
+let displaying = document.getElementById('display');
+let clearbtn = document.getElementById('clear');
 
-var names = [];
+let names = [];
 
-var rr = function addR() {
+let rr = function addR() {
     if (myInput.value.length > 0) {
 
         var list = document.createElement("li");
